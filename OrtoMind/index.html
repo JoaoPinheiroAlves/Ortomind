@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica OrtoMind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">🦷</span>
+                    </div>
+                    <h1 class="text-2xl font-bold text-gray-800">OrtoMind</h1>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Início</a>
+                    <a href="#servicos" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Serviços</a>
+                    <a href="#equipe" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Equipe</a>
+                    <a href="#contato" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">Contato</a>
+                </nav>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                    Agendar Consulta
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <h2 class="text-5xl font-bold mb-6 leading-tight">Seu sorriso é nossa paixão</h2>
+                    <p class="text-xl mb-8 text-blue-100">Cuidamos da sua saúde dental com tecnologia de ponta e profissionais qualificados.</p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                            Agendar Consulta
+                        </button>
+                        <button class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors">
+                            Ver Serviços
+                        </button>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="w-96 h-96 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
+                        <span class="text-8xl">😊</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">Nossos Serviços</h3>
+                <p class="text-xl text-gray-600">Oferecemos uma ampla gama de tratamentos dentais</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="service-card bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">🦷</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-800">Odontologia Geral</h4>
+                    <p class="text-gray-600 mb-6">Limpezas, restaurações, extrações e prevenção para manter sua saúde dental.</p>
+                    <button class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Mais informações →</button>
+                </div>
+                <div class="service-card bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">✨</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-800">Estética Dental</h4>
+                    <p class="text-gray-600 mb-6">Clareamentos, facetas e tratamentos para a melhor aparência do seu sorriso.</p>
+                    <button class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Mais informações →</button>
+                </div>
+                <div class="service-card bg-gray-50 p-8 rounded-xl text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-3xl">🔧</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-4 text-gray-800">Ortodontia</h4>
+                    <p class="text-gray-600 mb-6">Aparelhos tradicionais e invisíveis para corrigir dentes de forma eficiente.</p>
+                    <button class="text-blue-600 font-semibold hover:text-blue-700 transition-colors">Mais informações →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="equipe" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">Nosso Time</h3>
+                <p class="text-xl text-gray-600">Profissionais comprometidos com sua saúde dental</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl text-center shadow-lg">
+                    <div class="w-24 h-24 bg-blue-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-4xl">👨‍⚕️</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Dr. Carlos Mendoza</h4>
+                    <p class="text-blue-600 font-medium mb-4">Diretor Médico</p>
+                    <p class="text-gray-600">15 anos de experiência em odontologia geral e estética dental.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center shadow-lg">
+                    <div class="w-24 h-24 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-4xl">👩‍⚕️</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Dra. Ana García</h4>
+                    <p class="text-blue-600 font-medium mb-4">Especialista em Ortodontia</p>
+                    <p class="text-gray-600">Experiente em aparelhos invisíveis e tradicionais.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl text-center shadow-lg">
+                    <div class="w-24 h-24 bg-green-200 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <span class="text-4xl">👨‍⚕️</span>
+                    </div>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-800">Dr. Miguel Torres</h4>
+                    <p class="text-blue-600 font-medium mb-4">Cirurgião Oral</p>
+                    <p class="text-gray-600">Especialista em implantes dentários e cirurgia oral avançada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">Fale Conosco</h3>
+                <p class="text-xl text-gray-600">Estamos aqui para cuidar do seu sorriso</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <div class="space-y-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <span class="text-2xl">📍</span>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-2">Endereço</h4>
+                                <p class="text-gray-600">Av. Principal 123, Centro Médico<br>São Paulo, SP</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                                <span class="text-2xl">📞</span>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-2">Telefone</h4>
+                                <p class="text-gray-600">+55 (11) 1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                <span class="text-2xl">⏰</span>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-2">Horário</h4>
+                                <p class="text-gray-600">Seg - Sex: 8h - 18h<br>Sáb: 9h - 14h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <h4 class="text-2xl font-semibold text-gray-800 mb-6">Agende sua Consulta</h4>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nome Completo</label>
+                            <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Seu nome completo">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Telefone</label>
+                            <input type="tel" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Seu telefone">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Serviço de Interesse</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <option>Selecione um serviço</option>
+                                <option>Consulta Geral</option>
+                                <option>Limpeza Dental</option>
+                                <option>Clareamento</option>
+                                <option>Ortodontia</option>
+                                <option>Implantes</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Mensagem</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Conte-nos sobre sua consulta..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                            Enviar Solicitação
+                        </button>
+                    </form>
+                    <p class="text-sm text-gray-500 mt-4 text-center">
+                        <strong>Nota:</strong> Este é um formulário de demonstração. Em um site real, ele se conectaria a um sistema de agendamento.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                            <span class="text-white font-bold">🦷</span>
+                        </div>
+                        <h5 class="text-xl font-bold">OrtoMind</h5>
+                    </div>
+                    <p class="text-gray-400">Cuidando da sua saúde dental com profissionalismo e tecnologia de ponta.</p>
+                </div>
+                <div>
+                    <h6 class="text-lg font-semibold mb-4">Serviços</h6>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Odontologia Geral</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Estética Dental</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Ortodontia</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Implantes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="text-lg font-semibold mb-4">Informações</h6>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Sobre Nós</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Nosso Time</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Testemunhos</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="text-lg font-semibold mb-4">Siga-nos</h6>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
+                            <span class="text-sm">📘</span>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition-colors">
+                            <span class="text-sm">📷</span>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors">
+                            <span class="text-sm">🐦</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Clínica OrtoMind. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
